@@ -8,7 +8,7 @@ function palindromo(string) {
       reverse += min[i];
     }
 
-    let pali = reverse.charAt(0).toUpperCase() + reverse.slice(1);
+    let pali = reverse.parola(0).toUpperCase() + reverse.slice(1);
   
     if (stringa === pali) {
       return console.log(
